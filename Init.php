@@ -4,16 +4,16 @@ Plugin Name: Hooker
 Plugin URI: http://mjkhajeh.com
 Description: Download plugins/themes from wordpress
 Version: 1.0.0.0
-Author: Mohammad Jafar Khajeh
+Author: MohammadJafar Khajeh
 */
 namespace MJHooker;
 
-if (!defined('ABSPATH')) exit;
+if( !defined( 'ABSPATH' ) ) exit;
 
 class Init {
 	public static function get_instance() {
 		static $instance = null;
-		if($instance === null){
+		if( $instance === null ) {
 			$instance = new self;
 		}
 		return $instance;
@@ -33,7 +33,9 @@ class Init {
 	}
 
 	public function includes() {
-		
+		if( is_admin() ) {
+			include_once( MJHOOKER_DIR . 'Backend/Page.php' );
+		}
 	}
 }
 Init::get_instance();
