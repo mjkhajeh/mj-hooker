@@ -22,6 +22,7 @@ class Init {
 	private function __construct() {
 		add_action( 'plugins_loaded', array( $this, 'constants' ), 1 );
 		add_action( 'plugins_loaded', array( $this, 'includes' ), 5 );
+		add_action( 'admin_enqueue_scripts', array( $this, 'admin_enqueue' ) );
 	}
 
 	public function constants() {
@@ -34,8 +35,17 @@ class Init {
 
 	public function includes() {
 		if( is_admin() ) {
+			include_once( MJHOOKER_DIR . 'AJAX.php' );
 			include_once( MJHOOKER_DIR . 'Backend/Page.php' );
 		}
+	}
+
+	public function admin_enqueue() {
+		wp_enqueue_style( 'mjhooker-css', MJHOOKER_URI . "assets/css/mjhooker.backend.css" );
+		wp_enqueue_script( 'mjhooker-js', MJHOOKER_URI . "assets/js/mjhooker.backend.js", array( 'jquery' ), false, true );
+		wp_localize_script( 'mjhooker-js', 'mjhooker', array(
+			'ajaxurl'	=> admin_url( 'admin-ajax.php' ),
+		) );
 	}
 }
 Init::get_instance();

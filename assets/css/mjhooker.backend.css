@@ -1,0 +1,48 @@
+.mjhooker_table_container {
+	position: relative;
+	padding: 5px;
+}
+.mjhooker_overlay {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,.5);
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.mjhooker_table {
+	width: 100%;
+	background: #fff;
+	border-spacing: 0;
+	border: 1px solid #c3c4c7;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.mjhooker_table th {
+	padding: 20px;
+}
+.mjhooker_table tbody tr:nth-child(odd) {
+	background: #f6f7f7;
+}
+.mjhooker_table td {
+	padding: 20px 10px;
+	border-bottom: 1px solid #c3c4c7;
+}
+.mjhooker_table td:last-child {
+	text-align: center;
+}
+.mjhooker_table tbody tr:last-child td {
+	border: none;
+}
+.mjhooker_table .mjhooker_plugin-dl {
+	display: block;
+}
