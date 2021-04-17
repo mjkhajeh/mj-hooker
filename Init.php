@@ -6,6 +6,13 @@ Description: Download plugins/themes from wordpress
 Version: 1.0.0.0
 Author: MohammadJafar Khajeh
 */
+/**
+ * TO DO:
+ * 		Use tabs
+ * 		Support mu-plugins
+ * 		Translate Hooker
+ * 		Translate plugin/theme info
+ */
 namespace MJHooker;
 
 if( !defined( 'ABSPATH' ) ) exit;
