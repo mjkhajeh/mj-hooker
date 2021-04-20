@@ -9,12 +9,6 @@ Author URI: http://mjkhajeh.com
 Text Domain: mjhooker
 Domain Path: /languages
 */
-/**
- * TO DO:
- * 		Support mu-plugins
- * 		Translate Hooker
- * 		Translate plugin/theme info
- */
 namespace MJHooker;
 
 if( !defined( 'ABSPATH' ) ) exit;
