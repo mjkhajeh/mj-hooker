@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hooker\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-20 09:35+0000\n"
+"PO-Revision-Date: 2021-04-20 09:35+0000\n"
+"Last-Translator: محمدجعفر خواجه\n"
+"Language-Team: فارسی\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.1; wp-5.7\n"
+"X-Domain: mjhooker"
+
+#: Backend/Page.php:41
+msgid "Author"
+msgstr ""
+
+#. Description of the plugin
+msgid "Download plugins/themes from wordpress"
+msgstr ""
+
+#. $page_title:string
+#. Name of the plugin
+#: Backend/Page.php:20 Backend/Page.php:21 Backend/Page.php:89
+msgid "Hooker"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://mjkhajeh.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/hooker"
+msgstr ""
+
+#: Backend/Page.php:90
+msgid "Just click on plugin or theme what you want to download the zip file"
+msgstr ""
+
+#. Author of the plugin
+msgid "MohammadJafar Khajeh"
+msgstr ""
+
+#: Backend/Page.php:75 Backend/Page.php:116
+msgid "Plugins"
+msgstr ""
+
+#: Backend/Page.php:78 Backend/Page.php:135
+msgid "Themes"
+msgstr ""
+
+#: Backend/Page.php:39
+msgid "Title"
+msgstr ""
+
+#: Backend/Page.php:40
+msgid "Version"
+msgstr ""
