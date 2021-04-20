@@ -53,5 +53,13 @@
 				}
 			});
 		} );
+
+		$(".mjhooker_tab").on('click', function(e) {
+			e.preventDefault();
+			$(".nav-tab-active").removeClass("nav-tab-active");
+			$(this).addClass("nav-tab-active");
+			$(".tab-content").fadeOut();
+			$("#mjhooker_tab_"+$(this).attr('data-tab')).fadeIn();
+		});
 	});
 })(jQuery)

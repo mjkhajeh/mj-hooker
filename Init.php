@@ -1,14 +1,16 @@
 <?php
 /*
 Plugin Name: Hooker
-Plugin URI: http://mjkhajeh.com
+Plugin URI: https://wordpress.org/plugins/hooker
 Description: Download plugins/themes from wordpress
 Version: 1.0.0.0
 Author: MohammadJafar Khajeh
+Author URI: http://mjkhajeh.com
+Text Domain: mjhooker
+Domain Path: /languages
 */
 /**
  * TO DO:
- * 		Use tabs
  * 		Support mu-plugins
  * 		Translate Hooker
  * 		Translate plugin/theme info
@@ -29,6 +31,7 @@ class Init {
 	private function __construct() {
 		add_action( 'plugins_loaded', array( $this, 'constants' ), 1 );
 		add_action( 'plugins_loaded', array( $this, 'includes' ), 5 );
+		add_action( 'plugins_loaded', array( $this, 'i18n' ), 5 );
 		add_action( 'admin_enqueue_scripts', array( $this, 'admin_enqueue' ) );
 	}
 
@@ -45,6 +48,11 @@ class Init {
 			include_once( MJHOOKER_DIR . 'AJAX.php' );
 			include_once( MJHOOKER_DIR . 'Backend/Page.php' );
 		}
+	}
+
+	public function i18n() {
+		// Load languages
+		load_plugin_textdomain( 'mjhooker', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 	}
 
 	public function admin_enqueue() {
