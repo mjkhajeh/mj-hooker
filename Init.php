@@ -2,7 +2,7 @@
 /*
 Plugin Name: Hooker
 Plugin URI: https://wordpress.org/plugins/hooker
-Description: Download plugins/themes from wordpress
+Description: Compress and download plugins/themes from your wordpress website
 Version: 1.0.0.0
 Author: MohammadJafar Khajeh
 Author URI: http://mjkhajeh.com

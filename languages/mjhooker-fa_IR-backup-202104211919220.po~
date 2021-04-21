@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: Hooker\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-20 09:35+0000\n"
-"PO-Revision-Date: 2021-04-21 19:19+0000\n"
+"PO-Revision-Date: 2021-04-20 09:36+0000\n"
 "Last-Translator: محمدجعفر خواجه\n"
-"Language-Team: Persian\n"
+"Language-Team: فارسی\n"
 "Language: fa_IR\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
@@ -20,8 +20,8 @@ msgid "Author"
 msgstr "نویسنده"
 
 #. Description of the plugin
-msgid "Compress and download plugins/themes from your wordpress website"
-msgstr "فشرده سازی و دانلود پلاگین‌ها و پوسته‌ها از وردپرس شما"
+msgid "Download plugins/themes from wordpress"
+msgstr "دانلود پوسته‌ها یا افزونه‌ها"
 
 #. $page_title:string
 #. Name of the plugin

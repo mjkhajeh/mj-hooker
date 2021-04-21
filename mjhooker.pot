@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hooker\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-20 09:35+0000\n"
+"POT-Creation-Date: 2021-04-21 19:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -21,7 +21,7 @@ msgid "Author"
 msgstr ""
 
 #. Description of the plugin
-msgid "Download plugins/themes from wordpress"
+msgid "Compress and download plugins/themes from your wordpress website"
 msgstr ""
 
 #. $page_title:string
